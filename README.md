@@ -54,18 +54,6 @@ chmod +x KHAOS-*.AppImage
 
 マウス: バーをクリック/ドラッグで値を設定、ホイールで選択中の値を調整。
 
-### ソースからビルド
-
-```sh
-sudo apt install build-essential cmake pkg-config libsdl2-dev curl
-./build-appimage.sh                 # -> KHAOS-1.0.0-x86_64.AppImage
-
-# AppImage にしない場合
-cmake -S . -B build && cmake --build build && ./build/khaos
-```
-
-`v*` タグを push すると、GitHub Actions(`.github/workflows/appimage.yml`)が AppImage をビルドして Release に添付します。
-
 ## Raspberry Pi Pico 2 版
 
 `pico/KHAOS/` を Arduino IDE で開いて書き込みます。
