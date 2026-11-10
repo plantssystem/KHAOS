@@ -5,11 +5,6 @@
 2つのオシレーターが互いにFMし合い、カオス写像で揺れ続けるノイズ/ドローン・シンセです。
 Raspberry Pi Pico 2 で動く本体と、同じ音のエンジンをそのまま使った Linux デスクトップ版(AppImage)があります。
 
-<p>
-  <img src="assets/screen-splash.png" width="300" alt="KHAOS boot splash">
-  <img src="assets/screen-ui.png" width="300" alt="KHAOS main screen">
-</p>
-
 サイト: <https://plantssystem.github.io/KHAOS/>
 
 ## 特長
